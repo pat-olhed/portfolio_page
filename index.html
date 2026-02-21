@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Patrick Olmo Hederer | Data Science & AI</title>
+  <meta name="description" content="Portfolio von Patrick Olmo Hederer – Data Science, KI, Datenvisualisierung und Machine Learning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Startseite">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__text">Patrick Olmo Hederer</span>
+      </a>
+
+      <nav class="nav" aria-label="Hauptnavigation">
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Menü öffnen</span>
+          <span class="nav__bars" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav__list" id="navMenu">
+          <li><a href="#about">Über mich</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projekte</a></li>
+          <li><a href="#experience">Erfahrung</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+          <li class="nav__cta">
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/patrick-olmo-hederer/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="theme" type="button" id="themeBtn" aria-label="Farbschema umschalten">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="theme__icon">
+          <path d="M21 12.1A9 9 0 1 1 11.9 3a7 7 0 0 0 9.1 9.1Z"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">Data Science &amp; AI • Hamburg</p>
+          <h1>Ich bin Patrick Olmo Hederer.</h1>
+          <p class="lead">
+            Ich baue datengetriebene Lösungen – von sauberen Analysen und Visualisierungen bis zu ersten Machine‑Learning‑Modellen.
+            Auf dieser Seite finden Sie ausgewählte Projekte, Skills und meinen beruflichen Hintergrund.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn" href="#projects">Projekte ansehen</a>
+            <a class="btn btn--ghost" href="#contact">Kontakt</a>
+          </div>
+
+          <div class="hero__links" aria-label="Profile">
+            <a class="chip" href="https://github.com/pat-olhed" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="chip" href="https://public.tableau.com/app/profile/patrick.olmo.hederer/vizzes" target="_blank" rel="noreferrer">Tableau Public</a>
+            <a class="chip" href="mailto:olmohederer@gmail.com">E‑Mail</a>
+          </div>
+        </div>
+
+        <div class="hero__card" aria-label="Kurzprofil">
+          <div class="card">
+            <div class="card__top">
+              <div class="avatar" aria-hidden="true">POH</div>
+              <div>
+                <p class="card__name">Patrick Olmo Hederer</p>
+                <p class="card__role">Data Science &amp; AI</p>
+              </div>
+            </div>
+
+            <dl class="meta">
+              <div class="meta__row">
+                <dt>Standort</dt><dd>Hamburg, Deutschland</dd>
+              </div>
+              <div class="meta__row">
+                <dt>Sprachen</dt><dd>DE (Muttersprache), PT (Muttersprache), EN (C2), FR (B2)</dd>
+              </div>
+              <div class="meta__row">
+                <dt>Fokus</dt><dd>Python • SQL • Tableau • ML • NLP • GenAI</dd>
+              </div>
+            </dl>
+
+            <p class="card__note">
+              <strong>Profil:</strong> Praxisnaher Data‑Science‑ und AI‑Spezialist mit Erfahrung in KPI‑Analyse,
+              Prozessoptimierung und Stakeholder‑Kommunikation.
+            </p>
+
+            <div class="card__actions">
+              <a class="btn btn--small" href="#contact">Sprechen wir</a>
+              <a class="btn btn--small btn--ghost" href="tel:+491773219286">Anrufen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__bg" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <h2>Über mich</h2>
+          <p>
+            Ich kombiniere analytisches Denken mit Hands‑on‑Umsetzung: Daten bereinigen, Muster erkennen, Ergebnisse verständlich erzählen –
+            und daraus konkrete Entscheidungen ableiten.
+          </p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="panel">
+            <h3>Was Sie hier finden</h3>
+            <ul class="bullets">
+              <li>Ausgewählte Tableau‑Dashboards und Datenstories</li>
+              <li>EDA‑ und Feature‑Engineering‑Beispiele</li>
+              <li>Erste ML‑Use‑Cases (supervised/unsupervised, NLP, GenAI)</li>
+              <li>Berufserfahrung in KPI‑Reporting &amp; Prozessoptimierung</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Aktuell</h3>
+            <p>
+              Data‑Science‑Training (MasterSchool) mit Schwerpunkt auf Machine Learning, Deep Learning, NLP/LLMs und Data Storytelling.
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <p class="stat__num">Python</p>
+                <p class="stat__label">Pandas, Matplotlib, (Basics) FastAPI</p>
+              </div>
+              <div class="stat">
+                <p class="stat__num">SQL</p>
+                <p class="stat__label">PostgreSQL, Datenmodellierung (Grundlagen)</p>
+              </div>
+              <div class="stat">
+                <p class="stat__num">Tableau</p>
+                <p class="stat__label">Dashboards, Storytelling, KPI‑Views</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <h2>Skills</h2>
+          <p>Ein kompakter Überblick über Tools und Methoden, mit denen ich arbeite.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card card--flat">
+            <h3>Analytics &amp; Visualisierung</h3>
+            <ul class="tags">
+              <li>EDA</li><li>Data Cleaning</li><li>Feature Engineering</li><li>Time Series (Basics)</li><li>Tableau</li><li>Excel/Spreadsheets</li>
+            </ul>
+          </div>
+
+          <div class="card card--flat">
+            <h3>AI &amp; Machine Learning</h3>
+            <ul class="tags">
+              <li>Supervised Learning</li><li>Unsupervised Learning</li><li>Deep Learning</li><li>NLP</li><li>Generative AI (LLMs)</li>
+              <li>Scikit‑learn</li><li>TensorFlow</li><li>LangChain</li>
+            </ul>
+          </div>
+
+          <div class="card card--flat">
+            <h3>Engineering &amp; Tools</h3>
+            <ul class="tags">
+              <li>Python</li><li>SQL (PostgreSQL)</li><li>FastAPI</li><li>Git</li><li>OpenAI API</li><li>Notion</li><li>MS Teams</li>
+              <li>Salesforce</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projekte</h2>
+          <p>Auswahl an Arbeiten aus Data Analytics, Visualisierung und ML.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="project">
+            <div class="project__body">
+              <h3>Project Unicorn – Sales Dashboard</h3>
+              <p>
+                Analyse der Discount‑Policy und deren Einfluss auf Profitabilität nach Segmenten und Regionen.
+                Ergebnis: interaktives Tableau‑Dashboard zur Unterstützung datenbasierter Entscheidungen.
+              </p>
+              <ul class="project__meta">
+                <li>Tableau</li><li>KPI‑Analyse</li><li>Storytelling</li>
+              </ul>
+              <div class="project__actions">
+                <a class="btn btn--small" href="https://public.tableau.com/app/profile/patrick.olmo.hederer/vizzes" target="_blank" rel="noreferrer">In Tableau öffnen</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__body">
+              <h3>Car Dataset – EDA</h3>
+              <p>
+                Datenbereinigung, Feature Engineering und explorative Analyse, um zentrale Muster sichtbar zu machen
+                und Hypothesen für weitere Modellierung zu formulieren.
+              </p>
+              <ul class="project__meta">
+                <li>Python</li><li>Pandas</li><li>EDA</li>
+              </ul>
+              <div class="project__actions">
+                <a class="btn btn--small btn--ghost" href="https://github.com/pat-olhed" target="_blank" rel="noreferrer">GitHub ansehen</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__body">
+              <h3>FIFA23 – Player Performance Dashboard</h3>
+              <p>
+                Dashboard zur Exploration von Spieler‑Performance, Potenzial und Marktwert, inkl. Filter,
+                Vereins‑Rankings und Korrelationen zwischen Rating, Potenzial und Gehalt.
+              </p>
+              <ul class="project__meta">
+                <li>Tableau</li><li>Exploration</li><li>Visual Analytics</li>
+              </ul>
+              <div class="project__actions">
+                <a class="btn btn--small" href="https://public.tableau.com/app/profile/patrick.olmo.hederer/vizzes" target="_blank" rel="noreferrer">In Tableau öffnen</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project project--placeholder">
+            <div class="project__body">
+              <h3>Weitere Arbeiten</h3>
+              <p>
+                Platzhalter für kommende Projekte (z. B. NLP/LLM‑Experimente, kleine FastAPI‑Apps oder Forecasting‑Modelle).
+                Wenn Sie ein konkretes Thema sehen möchten: schreiben Sie mir kurz.
+              </p>
+              <ul class="project__meta">
+                <li>NLP</li><li>LLMs</li><li>FastAPI</li>
+              </ul>
+              <div class="project__actions">
+                <a class="btn btn--small btn--ghost" href="#contact">Kontakt</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__head">
+          <h2>Erfahrung</h2>
+          <p>Beruflicher Hintergrund mit Fokus auf KPI‑Analyse, Kommunikation und Prozessverbesserung.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="titem">
+            <div class="titem__time">06/2022 – 12/2024</div>
+            <div class="titem__content">
+              <h3>Senior Talent Manager – Strategic Accounts <span>• Robert Half Deutschland</span></h3>
+              <ul>
+                <li>Recruiting &amp; Management von IT‑Professionals für Public‑Sector‑Projekte</li>
+                <li>KPI‑Reporting und Stakeholder‑Kommunikation zur Prozessoptimierung</li>
+                <li>Interviews, Auswahlprozesse und Verhandlungen – höhere Hiring‑Rate, kürzere Time‑to‑Hire</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="titem">
+            <div class="titem__time">07/2021 – 04/2022</div>
+            <div class="titem__content">
+              <h3>Project Coordinator <span>• GRAND STAND</span></h3>
+              <ul>
+                <li>Organisation und Auswertung von bundesweiten Promotion‑Events</li>
+                <li>Recruiting, Scheduling und Routenplanung für Kampagnen in mehreren Städten</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="titem">
+            <div class="titem__time">05/2013 – 08/2018</div>
+            <div class="titem__content">
+              <h3>Teamlead <span>• Agentur Triebwerk GmbH</span></h3>
+              <ul>
+                <li>Koordination von Sales‑ &amp; Marketing‑Kampagnen</li>
+                <li>Planung, Steuerung und Abschluss von 10+ Projekten</li>
+                <li>Prozesssteuerung und Konfliktlösung für reibungslose Abläufe</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="section__subhead">
+          <h3>Ausbildung</h3>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card card--flat">
+            <h4>MasterSchool – Data Science &amp; AI</h4>
+            <p class="muted">03/2025 – 04/2026 • Training Program</p>
+            <ul class="bullets">
+              <li>Supervised/Unsupervised Learning, Deep Learning</li>
+              <li>NLP &amp; Generative AI (LLMs)</li>
+              <li>SQL, Data Cleaning, Tableau Storytelling</li>
+            </ul>
+          </div>
+
+          <div class="card card--flat">
+            <h4>Universität Hamburg – Linguistics (B.A.)</h4>
+            <p class="muted">10/2018 – 07/2022 • inkl. Auslandssemester (Universidade de Lisboa)</p>
+            <h4 class="mt">FAU Nürnberg – Economics (B.A.)</h4>
+            <p class="muted">10/2014 – 07/2017</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2>Kontakt</h2>
+          <p>Sie möchten über ein Projekt sprechen oder eine Zusammenarbeit anstoßen? Ich freue mich über eine Nachricht.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="panel">
+            <h3>Direkt</h3>
+            <ul class="contact">
+              <li><span>E‑Mail</span> <a href="mailto:olmohederer@gmail.com">olmohederer@gmail.com</a></li>
+              <li><span>Telefon</span> <a href="tel:+491773219286">+49 177 3219286</a></li>
+              <li><span>LinkedIn</span> <a href="https://www.linkedin.com/in/patrick-olmo-hederer/" target="_blank" rel="noreferrer">Profil öffnen</a></li>
+              <li><span>GitHub</span> <a href="https://github.com/pat-olhed" target="_blank" rel="noreferrer">pat-olhed</a></li>
+              <li><span>Tableau</span> <a href="https://public.tableau.com/app/profile/patrick.olmo.hederer/vizzes" target="_blank" rel="noreferrer">Vizzes ansehen</a></li>
+            </ul>
+          </div>
+
+          <form class="form" id="contactForm">
+            <h3>Kurze Nachricht</h3>
+            <div class="form__row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="form__row">
+              <label for="email">E‑Mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="form__row">
+              <label for="message">Nachricht</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div class="form__actions">
+              <button class="btn" type="submit">E‑Mail öffnen</button>
+              <p class="hint">Öffnet Ihr E‑Mail‑Programm (kein Server‑Versand).</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> Patrick Olmo Hederer</p>
+        <a href="#top" class="footer__link">Nach oben</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
